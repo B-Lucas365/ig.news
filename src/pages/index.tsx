@@ -7,7 +7,6 @@ export default function Home() {
       <Head><title>Ig.news</title></Head>
       <Header />
     </>
-    
   )
 }
 
