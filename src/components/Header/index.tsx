@@ -1,10 +1,16 @@
-import { Container } from "./styles"
+import { Container, Content } from "./styles"
 
 export const Header = () => {
     return(
         <>
             <Container>
-                <h1>React</h1>
+                <Content>
+                    <img src="/images/logo.svg" alt="ig.news" />
+                    <nav>
+                        <a className="active">Home</a>
+                        <a>Posts</a>
+                    </nav>
+                </Content>
             </Container>
         </>
     )

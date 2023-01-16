@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head><title>Ig.news</title></Head>
-      <Header />
+      <h1>Helo word</h1>
     </>
   )
 }
