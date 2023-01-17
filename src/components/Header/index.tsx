@@ -1,3 +1,4 @@
+import { SigninButton } from "../SigninButton"
 import { Container, Content } from "./styles"
 
 export const Header = () => {
@@ -10,6 +11,9 @@ export const Header = () => {
                         <a className="active">Home</a>
                         <a>Posts</a>
                     </nav>
+
+                    <SigninButton />
+                    
                 </Content>
             </Container>
         </>
