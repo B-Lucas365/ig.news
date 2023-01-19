@@ -1,6 +1,10 @@
 import { Subscribe } from "./style"
 
-export const SubscribeButton = () => {
+interface SubscribeButtonProps {
+    priceId: string
+}
+
+export const SubscribeButton = ({priceId}: SubscribeButtonProps) => {
     return (
         <Subscribe>
             Subscribe Now
