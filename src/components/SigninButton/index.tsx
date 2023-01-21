@@ -9,12 +9,16 @@ export const SigninButton = () => {
     const {data: session} = useSession()
     console.log(session)
 
+    if (session) {
+
+    }
+
     return (
         <Button onClick={() => signIn('github')}>
             {session &&
                 <>
                     <FaGithub color="#04d361"/>
-                    Lucas Renan
+                    {session?.user?.name}
                     <FiX className="closeIcon"/>
                 </>
             }
