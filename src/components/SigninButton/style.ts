@@ -14,9 +14,20 @@ export const Button = styled.button`
     color: var(--white);
     font-weight: bold;
 
+    div {
+        clip-path: circle();
+        margin-right: 1rem;
+        img{
+            max-width: 2rem;
+            height: 2rem;
+            
+        }
+    }
+
     svg {
         width: 20px;
         height: 20px;
+        
 
     }
 
